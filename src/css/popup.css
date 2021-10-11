@@ -1,0 +1,94 @@
+#container {
+    position: relative;
+    width: 350px;
+}
+
+.loader-overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+
+.loader-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p-accordion-header-text .pi {
+    margin: 0 .5em;
+}
+
+.p-field {
+    margin-bottom: .5rem;
+}
+
+.p-field > h4 {
+    white-space: nowrap;
+}
+
+.p-field > h4 > .p-text-normal {
+    font-size: .825em;
+}
+
+.p-field:nth-child(even) {
+    background: #f4f4f4;
+    margin-left: -1em;
+    margin-right: -1em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.p-checkbox-label {
+    cursor: pointer;
+    font-size: .825em;
+}
+
+.p-field-checkbox > label + .p-checkbox {
+    margin-left: .5rem;
+}
+
+.p-button + .p-slider {
+    flex: 1;
+    margin: 1rem;
+}
+
+@keyframes p-progress-spinner-color {
+    100%,
+    0% {
+        stroke: #1cb0f6;
+    }
+    33% {
+        stroke: #fec701;
+    }
+    66% {
+        stroke: #ff4b4b;
+    }
+}
+
+.p-field .p-togglebutton {
+    margin-left: 10px;
+    transform: scale(0.75);
+    transform-origin: right;
+}
+
+.p-accordion-content {
+    padding: 0 !important;
+}
+
+.p-setting-tab-header {
+    flex: 1;
+}
+
+.p-setting-tab-header .p-tabview-nav-link {
+    justify-content: center;
+}
+
+.p-button-icon.pi-volume-up {
+    font-size: 1.25em;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "duolingo-sound-controls",
+  "description": "A browser extension providing fine-grained sound controls for Duolingo.",
+  "license": "MIT",
+  "author": "blmage",
+  "version": "1.0.0",
+  "homepage": "https://github.com/blmage/duolingo-sound-controls",
+  "scripts": {
+    "build": "rollup -c --environment production",
+    "build-debug": "rollup -c --environment development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chrome-storage-promise": "git+https://github.com/blmage/chrome-storage-promise.git#semver:^1.0.0",
+    "classnames": "^2.3.1",
+    "duo-toolbox": "git+https://github.com/blmage/duo-toolbox.git#semver:^2.0.3",
+    "lodash.merge": "^4.6.2",
+    "preact": "^10.5.14",
+    "preact-use": "git+https://github.com/blmage/preact-use.git#semver:^17.3.1-patch",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.1.0",
+    "primereact": "^6.5.1",
+    "react-transition-group": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/plugin-transform-react-jsx-source": "^7.14.5",
+    "@babel/preset-env": "^7.15.6",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^2.4.2",
+    "babel-plugin-macros": "^2.8.0",
+    "eslint": "^7.32.0",
+    "eslint-config-preact": "^1.1.4",
+    "eslint-plugin-jsdoc": "^30.7.13",
+    "eslint-plugin-react": "^7.26.0",
+    "one-liner.macro": "git+https://github.com/blmage/one-liner.macro.git#semver:^3.2.2-patch",
+    "rollup": "^2.57.0",
+    "rollup-plugin-purified-css": "git+https://github.com/blmage/rollup-plugin-purified-css.git#semver:^1.0.0",
+    "rollup-plugin-strict-alias": "^1.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
