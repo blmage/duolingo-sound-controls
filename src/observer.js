@@ -33,22 +33,26 @@ onSoundPlaybackConfirmed(({ sound, type, speed, playbackStrategy }) => {
     const rate = getSettingPlaybackValue(currentConfig, SOUND_SETTING_RATE, type, speed, context);
     const volume = getSettingPlaybackValue(currentConfig, SOUND_SETTING_VOLUME, type, speed, context);
 
-    setSoundSettingValue(
-      SOUND_SETTING_RATE,
-      rate.value,
-      sound,
-      playbackStrategy,
-      rate.isRelative,
-      PRIORITY_LOW
-    );
+    if (rate) {
+      setSoundSettingValue(
+        SOUND_SETTING_RATE,
+        rate.value,
+        sound,
+        playbackStrategy,
+        rate.isRelative,
+        PRIORITY_LOW
+      );
+    }
 
-    setSoundSettingValue(
-      SOUND_SETTING_VOLUME,
-      volume.value,
-      sound,
-      playbackStrategy,
-      volume.isRelative,
-      PRIORITY_LOW
-    );
+    if (volume) {
+      setSoundSettingValue(
+        SOUND_SETTING_VOLUME,
+        volume.value,
+        sound,
+        playbackStrategy,
+        volume.isRelative,
+        PRIORITY_LOW
+      );
+    }
   }
 });

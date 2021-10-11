@@ -28,7 +28,7 @@ const STORAGE_KEY_PROFILES = 'profiles';
 const handleCurrentProfileRequest = async sendResult => {
   const profiles = (await ChromeStorage.sync.get(STORAGE_KEY_PROFILES))[STORAGE_KEY_PROFILES] || {};
 
-  sendResult(profiles?.[DEFAULT_PROFILE_ID] || DEFAULT_CONFIGURATION);
+  sendResult(profiles[DEFAULT_PROFILE_ID] || DEFAULT_CONFIGURATION);
 };
 
 /**
