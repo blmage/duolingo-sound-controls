@@ -28,6 +28,8 @@ extension icon in the browser's toolbar or address bar to open the extension pop
 
   <img width="350" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/assets_v1/popup__story.png"/>
 
+New settings will be applied from the next sound played.
+
 ### Features
 
 * Allows defining different volume and speed settings for each type of sound:
@@ -40,7 +42,7 @@ extension icon in the browser's toolbar or address bar to open the extension pop
 
     * other sounds,
 
-    in different contexts:
+    in the different contexts:
 
     * listening challenges,
 
@@ -71,7 +73,7 @@ extension take precedence over those from this extension.
 
 #### Other extensions
 
-Out of the box, the extension should be compatible with all others: 
+The extension should be compatible with all others out of the box: 
 settings that are applied to sounds by other extensions treated in the same way as the original Duo settings.
 
 ### Limitations
