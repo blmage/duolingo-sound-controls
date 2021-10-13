@@ -24,9 +24,9 @@ A browser extension providing fine-grained **sound controls** for [Duolingo](htt
 Click on the <img align="center" width="24" height="24" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/master/dist/icons/icon_48.png" /> 
 extension icon in the browser's toolbar or address bar to open the extension popup and customize the sound settings:
 
-  <img align="left" width="400" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/assets_v1/popup__defaults.png" style="float:left;"/>
+  <img align="left" width="350" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/assets_v1/popup__defaults.png" style="float:left;"/>
 
-  <img width="400" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/assets_v1/popup__story.png"/>
+  <img width="350" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/assets_v1/popup__story.png"/>
 
 ### Features
 
