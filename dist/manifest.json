@@ -19,8 +19,9 @@
     }
   ],
   "page_action": {
-    "browser_style": true,
-    "default_popup": "pages/popup.html"
+    "browser_style": false,
+    "default_popup": "pages/popup.html",
+    "default_icon": "icons/icon_48.png"
   },
   "web_accessible_resources": [
     "assets/css/ui.css",
