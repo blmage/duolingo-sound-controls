@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-sound-controls.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-sound-controls?ref=badge_shield)
+
 <h1>
   <img align="center" width="48" height="48" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/master/dist/icons/icon_48.png" />
   Duolingo Sound Controls
@@ -97,3 +99,7 @@ settings that are applied to sounds by other extensions treated in the same way 
 
 If you encounter a bug, or if you have a suggestion regarding a new feature, don't hesitate to
 [open a related issue](https://github.com/blmage/duolingo-sound-controls/issues/new)!
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-sound-controls.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-sound-controls?ref=badge_large)
