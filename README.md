@@ -5,7 +5,7 @@
 
 [![DeepScan grade](https://deepscan.io/api/teams/9459/projects/18844/branches/473969/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9459&pid=18844&bid=473969)
 ![ESLint](https://github.com/blmage/duolingo-sound-controls/workflows/ESLint/badge.svg)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-tts-controls.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-tts-controls?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-sound-controls.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fblmage%2Fduolingo-sound-controls?ref=badge_shield)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fdgmdpdkmbmoikgppbpdkcagdnhgkiih)](https://chrome.google.com/webstore/detail/duolingo-sound-controls/fdgmdpdkmbmoikgppbpdkcagdnhgkiih)
 [![Mozilla Add-on](https://img.shields.io/amo/v/duolingo-sound-controls)](https://addons.mozilla.org/firefox/addon/duolingo-sound-controls/)
 
