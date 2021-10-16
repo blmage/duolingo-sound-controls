@@ -1,6 +1,18 @@
+body {
+    margin: 0;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
 #container {
     position: relative;
     width: 350px;
+}
+
+@supports (-moz-appearance: none) {
+    #container {
+        margin-right: 18px;
+    }
 }
 
 .loader-overlay {
