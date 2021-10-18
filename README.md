@@ -28,8 +28,9 @@ A browser extension providing fine-grained **sound controls** for [Duolingo](htt
 
 ### Usage
 
-Click on the <img align="center" width="24" height="24" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/master/dist/icons/icon_48.png" /> 
-extension icon in the browser's toolbar or address bar to open the extension popup and customize the sound settings:
+Click on the <img align="center" width="24" height="24" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/master/dist/icons/icon_48.png" />
+extension icon in the browser's toolbar or address bar (you may have to pin it first) to open the extension popup and 
+customize the sound settings:
 
   <img align="left" width="350" src="https://raw.githubusercontent.com/blmage/duolingo-sound-controls/assets_v1/popup__defaults.png" style="float:left;"/>
 
@@ -41,15 +42,15 @@ New settings will be applied from the next sound played.
 
 * Allows defining different volume and speed settings for each type of sound:
 
-    * effects
+    * effects,
 
     * normal and slow sentences,
 
-    * normal and slow words,
+    * words,
 
     * other sounds,
 
-    in the different contexts:
+    depending on the context in which it is played:
 
     * listening challenges,
 
@@ -63,9 +64,9 @@ New settings will be applied from the next sound played.
 
     * other contexts.
 
-* Default settings can be defined for each sound type, and reused in each context.
-
 * All settings can be defined relative to the original settings, or override them entirely.
+
+* Default settings can be defined for each sound type, and reused across multiple contexts.
 
 * A main volume setting is available to quickly adjust the volume of all sounds in a context.
 
@@ -75,17 +76,17 @@ New settings will be applied from the next sound played.
   <img align="center" width="16" height="16" src="https://raw.githubusercontent.com/blmage/duolingo-tts-controls/master/dist/icons/icon_16.png" />
   Duolingo TTS Controls
 </h4>
-All the settings from the <a href="https://www.github.com/blmage/duolingo-tts-controls">Duolingo TTS Controls</a> 
+All the settings from the <a href="https://www.github.com/blmage/duolingo-tts-controls">Duolingo TTS Controls</a>
 extension take precedence over those from this extension.
 
 #### Other extensions
 
-The extension should be compatible with all others out of the box: 
-settings that are applied to sounds by other extensions treated in the same way as the original Duo settings.
+The extension should be compatible with all others out of the box:
+settings applied to sounds by other extensions are treated in the same way as the original Duo settings.
 
 ### Limitations
 
-* The extension is deeply tied to the inner workings of [Duolingo](https://www.duolingo.com), meaning that 
+* The extension is deeply tied to the inner workings of [Duolingo](https://www.duolingo.com), meaning that
   significant changes on their side could (temporarily) break it. If that happens, you can either:
 
     * wait for me to fix it (you can
@@ -94,7 +95,13 @@ settings that are applied to sounds by other extensions treated in the same way 
     * if you're a developer, try to fix it yourself, then
       [open a related PR](https://github.com/blmage/duolingo-sound-controls/compare).
 
+* Due to technical constraints, the volume of the sounds can not be raised over 100%.
+
 ### Roadmap
+
+* Add new sound type: "character / syllable" (currently part of "word").
+
+* Allow to define custom contexts based on a selection of challenge types. 
 
 * Allow to manage different profiles, each of which can be assigned to specific courses.
 
