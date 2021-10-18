@@ -55,10 +55,12 @@ const SOUND_SETTING_PARAMS = {
     step: 0.1,
     label: 'Speed',
     minValue: getSoundSettingMinValue(SOUND_SETTING_RATE),
-    minButtonValue: getSoundSettingDefaultValue(SOUND_SETTING_RATE),
     minIcon: PrimeIcons.PLAY,
+    minButtonValue: getSoundSettingDefaultValue(SOUND_SETTING_RATE),
+    minButtonTitle: 'Normal (default)',
     maxValue: Math.min(2.5, getSoundSettingMaxValue(SOUND_SETTING_RATE)),
     maxIcon: PrimeIcons.FORWARD,
+    maxButtonTitle: 'Fast',
     displayScale: 1,
     displaySuffix: 'x',
   },
@@ -67,8 +69,10 @@ const SOUND_SETTING_PARAMS = {
     label: 'Volume',
     minValue: getSoundSettingMinValue(SOUND_SETTING_VOLUME),
     minIcon: PrimeIcons.VOLUME_OFF,
+    minButtonTitle: 'Mute',
     maxValue: getSoundSettingMaxValue(SOUND_SETTING_VOLUME),
     maxIcon: PrimeIcons.VOLUME_UP,
+    maxButtonTitle: 'Normal (default)',
     displayScale: 100 / getSoundSettingMaxValue(SOUND_SETTING_VOLUME),
     displaySuffix: '%',
   },
@@ -241,6 +245,7 @@ const SettingSlider =
         <div className={classNames([ 'p-col-10', 'p-d-flex', 'p-ai-center' ])}>
           <Button
             disabled={disabled || isDefaulted}
+            title={settingParams.minButtonTitle}
             icon={`pi ${settingParams.minIcon}`}
             className="p-button-rounded p-button-text p-button-plain"
             onClick={() => onBaseValueChange(settingParams.minButtonValue || settingParams.minValue)}
@@ -257,6 +262,7 @@ const SettingSlider =
           />
           <Button
             disabled={disabled || isDefaulted}
+            title={settingParams.maxButtonTitle}
             icon={`pi ${settingParams.maxIcon}`}
             className="p-button-rounded p-button-text p-button-plain"
             onClick={() => onBaseValueChange(settingParams.maxButtonValue || settingParams.maxValue)}
