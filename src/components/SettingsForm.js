@@ -60,6 +60,7 @@ const SOUND_SETTING_PARAMS = {
     minButtonTitle: 'Normal (default)',
     maxValue: Math.min(2.5, getSoundSettingMaxValue(SOUND_SETTING_RATE)),
     maxIcon: PrimeIcons.FORWARD,
+    maxButtonValue: Math.min(2.0, getSoundSettingMaxValue(SOUND_SETTING_RATE)),
     maxButtonTitle: 'Fast',
     displayScale: 1,
     displaySuffix: 'x',
