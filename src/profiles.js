@@ -63,7 +63,6 @@ const getSettingContextDefaults = (setting, value = null, mainValue = null) => (
   },
   [SOUND_TYPE_TTS_WORD]: {
     [SOUND_SPEED_NORMAL]: value,
-    [SOUND_SPEED_SLOW]: value,
   },
   [SOUND_TYPE_UNKNOWN]: {
     [SOUND_SPEED_NORMAL]: value,
