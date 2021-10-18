@@ -219,8 +219,8 @@ const SettingSlider =
               tooltipOptions={{ position: 'left' }}
               tooltip={(
                 isRelative
-                  ? 'Click to ignore the Duo setting (generally not recommended).'
-                  : 'Click to combine the Duo setting with yours (recommended in most cases).'
+                  ? 'Click to ignore the original setting (generally not recommended).'
+                  : 'Click to combine the original setting with yours (generally recommended).'
               )}
             />
           )}
