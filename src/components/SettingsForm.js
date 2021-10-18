@@ -114,7 +114,7 @@ const SOUND_COMBINATIONS = (
  * @param {string} type A sound type.
  * @returns {boolean} Whether sounds of the given type have different speeds.
  */
-const hasSoundTypeMultipleSpeeds = SOUND_COMBINATIONS[it].length > 0;
+const hasSoundTypeMultipleSpeeds = SOUND_COMBINATIONS[it].length > 1;
 
 /**
  * @param {string} type A sound type.
