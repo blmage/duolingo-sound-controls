@@ -1,4 +1,4 @@
-import { LISTENING_CHALLENGE_TYPES } from 'duo-toolbox/duo/challenges';
+import { ALL_LISTENING_CHALLENGE_TYPES } from 'duo-toolbox/duo/challenges';
 
 import {
   CONTEXT_CHALLENGE,
@@ -49,7 +49,7 @@ export const getCurrentContext = () => {
   let context = contextData.type;
 
   if (CONTEXT_CHALLENGE === context) {
-    context = LISTENING_CHALLENGE_TYPES.indexOf(contextData.challengeType) === -1
+    context = ALL_LISTENING_CHALLENGE_TYPES.indexOf(contextData.challengeType) === -1
       ? CONTEXT_OTHER_CHALLENGE
       : CONTEXT_LISTENING_CHALLENGE;
   }
