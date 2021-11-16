@@ -20,6 +20,7 @@ import {
   SOUND_SPEED_SLOW,
   SOUND_SPEEDS,
   SOUND_TYPE_EFFECT,
+  SOUND_TYPE_TTS_MORPHEME,
   SOUND_TYPE_TTS_SENTENCE,
   SOUND_TYPE_TTS_WORD,
   SOUND_TYPE_UNKNOWN,
@@ -27,6 +28,7 @@ import {
 } from 'duo-toolbox/duo/sounds';
 
 import {
+  CONTEXT_CHARACTERS,
   CONTEXT_DICTIONARY,
   CONTEXT_FORUM_DISCUSSION,
   CONTEXT_LISTENING_CHALLENGE,
@@ -84,6 +86,7 @@ const SOUND_SETTING_PARAMS = {
  */
 const SOUND_TYPE_LABELS = {
   [SOUND_TYPE_EFFECT]: 'Effect',
+  [SOUND_TYPE_TTS_MORPHEME]: 'Character/Syllable',
   [SOUND_TYPE_TTS_SENTENCE]: 'Sentence',
   [SOUND_TYPE_TTS_WORD]: 'Word',
   [SOUND_TYPE_UNKNOWN]: 'Other',
@@ -154,6 +157,10 @@ const CONTEXT_HEADERS = {
   [CONTEXT_DICTIONARY]: {
     icon: PrimeIcons.SEARCH,
     label: 'Dictionary',
+  },
+  [CONTEXT_CHARACTERS]: {
+    icon: PrimeIcons.INFO,
+    label: 'Characters',
   },
   [CONTEXT_UNKNOWN]: {
     icon: PrimeIcons.QUESTION,

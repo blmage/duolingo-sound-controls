@@ -9,6 +9,7 @@ import {
   SOUND_SPEED_NORMAL,
   SOUND_SPEED_SLOW,
   SOUND_TYPE_EFFECT,
+  SOUND_TYPE_TTS_MORPHEME,
   SOUND_TYPE_TTS_SENTENCE,
   SOUND_TYPE_TTS_WORD,
   SOUND_TYPE_UNKNOWN,
@@ -62,6 +63,9 @@ const getSettingContextDefaults = (setting, value = null, mainValue = null) => (
     [SOUND_SPEED_SLOW]: value,
   },
   [SOUND_TYPE_TTS_WORD]: {
+    [SOUND_SPEED_NORMAL]: value,
+  },
+  [SOUND_TYPE_TTS_MORPHEME]: {
     [SOUND_SPEED_NORMAL]: value,
   },
   [SOUND_TYPE_UNKNOWN]: {
