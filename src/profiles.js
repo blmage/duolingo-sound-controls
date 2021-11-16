@@ -148,7 +148,7 @@ export const getSettingMainValue = (config, setting, context, useFallback = true
     ? value
     : (
       (null === context)
-        ? getSoundSettingDefaultValue(setting)
+        ? { value: getSoundSettingDefaultValue(setting) }
         : (
           !useFallback
             ? null
@@ -181,8 +181,10 @@ export const getSettingSoundValue = (config, setting, soundType, soundSpeed, con
     ? value
     : (
       (null === context)
-        ? getSoundSettingDefaultValue(setting)
-        : (
+        ? ({
+          isRelative: true,
+          value: getSoundSettingDefaultValue(setting),
+        }) : (
           !useFallback
             ? null
             : getSettingSoundValue(config, setting, soundType, soundSpeed, null)
