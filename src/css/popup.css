@@ -37,7 +37,8 @@ body {
 }
 
 .p-field {
-    margin-bottom: .5rem;
+    margin-bottom: 0;
+    padding-bottom: .5rem;
 }
 
 .p-field > h4 {
