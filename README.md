@@ -47,6 +47,8 @@ New settings will be applied from the next sound played.
     * normal and slow sentences,
 
     * words,
+    
+    * characters and syllables,
 
     * other sounds,
 
@@ -61,6 +63,8 @@ New settings will be applied from the next sound played.
     * forum discussions,
 
     * dictionary pages,
+
+    * characters pages,
 
     * other contexts.
 
@@ -98,8 +102,6 @@ settings applied to sounds by other extensions are treated in the same way as th
 * Due to technical constraints, the volume of the sounds can not be raised over 100%.
 
 ### Roadmap
-
-* Add new sound type: "character / syllable" (currently part of "word").
 
 * Allow to define custom contexts based on a selection of challenge types. 
 
