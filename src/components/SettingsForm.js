@@ -29,7 +29,6 @@ import {
 
 import {
   CONTEXT_CHARACTERS,
-  CONTEXT_DICTIONARY,
   CONTEXT_FORUM_DISCUSSION,
   CONTEXT_LISTENING_CHALLENGE,
   CONTEXT_OTHER_CHALLENGE,
@@ -153,10 +152,6 @@ const CONTEXT_HEADERS = {
   [CONTEXT_FORUM_DISCUSSION]: {
     icon: PrimeIcons.COMMENTS,
     label: 'Forum',
-  },
-  [CONTEXT_DICTIONARY]: {
-    icon: PrimeIcons.SEARCH,
-    label: 'Dictionary',
   },
   [CONTEXT_CHARACTERS]: {
     icon: PrimeIcons.INFO,
