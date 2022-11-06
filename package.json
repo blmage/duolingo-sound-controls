@@ -13,7 +13,7 @@
   "dependencies": {
     "chrome-storage-promise": "git+https://github.com/blmage/chrome-storage-promise.git#semver:^1.0.0",
     "classnames": "^2.3.1",
-    "duo-toolbox": "git+https://github.com/blmage/duo-toolbox.git#semver:^3.4.0",
+    "duo-toolbox": "git+https://github.com/blmage/duo-toolbox.git#semver:^3.5.0",
     "lodash.merge": "^4.6.2",
     "preact": "^10.5.14",
     "preact-use": "git+https://github.com/blmage/preact-use.git#semver:^17.3.1-patch",
