@@ -2,6 +2,7 @@ import { ALL_LISTENING_CHALLENGE_TYPES } from 'duo-toolbox/duo/challenges';
 
 import {
   CONTEXT_CHALLENGE,
+  CONTEXT_CHALLENGE_REVIEW,
   CONTEXT_CHARACTERS,
   CONTEXT_FORUM_DISCUSSION,
   CONTEXT_GUIDEBOOK,
@@ -52,6 +53,8 @@ export const getCurrentContext = () => {
     context = ALL_LISTENING_CHALLENGE_TYPES.indexOf(contextData.challengeType) === -1
       ? CONTEXT_OTHER_CHALLENGE
       : CONTEXT_LISTENING_CHALLENGE;
+  } else if (CONTEXT_CHALLENGE_REVIEW === context) {
+    context = CONTEXT_LISTENING_CHALLENGE;
   }
 
   return context;
