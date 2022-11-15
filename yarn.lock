@@ -1634,9 +1634,9 @@ dom-helpers@^5.0.1:
     "@babel/runtime" "^7.8.7"
     csstype "^3.0.2"
 
-"duo-toolbox@git+https://github.com/blmage/duo-toolbox.git#semver:^3.5.0":
-  version "3.5.0"
-  resolved "git+https://github.com/blmage/duo-toolbox.git#7394cf37c6f18f00097a7103feff990e24bab0f4"
+"duo-toolbox@git+https://github.com/blmage/duo-toolbox.git#semver:^3.7.0":
+  version "3.7.0"
+  resolved "git+https://github.com/blmage/duo-toolbox.git#6978864996ad10af33e613f24fd08d45aa5dc4c4"
 
 electron-to-chromium@^1.4.202:
   version "1.4.206"

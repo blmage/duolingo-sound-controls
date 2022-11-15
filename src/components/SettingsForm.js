@@ -30,6 +30,7 @@ import {
 import {
   CONTEXT_CHARACTERS,
   CONTEXT_FORUM_DISCUSSION,
+  CONTEXT_GUIDEBOOK,
   CONTEXT_LISTENING_CHALLENGE,
   CONTEXT_OTHER_CHALLENGE,
   CONTEXT_UNKNOWN,
@@ -144,6 +145,10 @@ const CONTEXT_HEADERS = {
   [CONTEXT_OTHER_CHALLENGE]: {
     icon: PrimeIcons.PENCIL,
     label: 'Challenge (other)',
+  },
+  [CONTEXT_GUIDEBOOK]: {
+    icon: PrimeIcons.MAP,
+    label: 'Guidebook',
   },
   [CONTEXT_STORY]: {
     icon: PrimeIcons.BOOK,
@@ -280,13 +285,13 @@ const SettingSlider =
 
 const SettingsPanel =
   ({
-     context = null,
-     config,
-     disabled = false,
-     activeSetting = null,
-     onSettingValueChange = noop,
-     onActiveSettingChange = noop,
-   }) => {
+    context = null,
+    config,
+    disabled = false,
+    activeSetting = null,
+    onSettingValueChange = noop,
+    onActiveSettingChange = noop,
+  }) => {
     const soundSettingPanels = SOUND_SETTINGS.map(setting => {
       const value = getSettingMainValue(config, setting, context, false);
       const defaultValue = context && getSettingMainValue(config, setting, null);
