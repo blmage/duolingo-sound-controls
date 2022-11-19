@@ -50,8 +50,6 @@ New settings will be applied from the next sound played.
     
     * characters and syllables,
 
-    * other sounds,
-
     depending on the context in which it is played:
 
     * listening challenges,
@@ -60,19 +58,18 @@ New settings will be applied from the next sound played.
 
     * stories,
 
+    * guidebooks,
+
     * forum discussions,
 
-    * dictionary pages,
+    * characters pages.
 
-    * characters pages,
-
-    * other contexts.
-
-* All settings can be defined relative to the original settings, or override them entirely.
+* All settings can be defined relative to the original settings, or override them entirely
+  (useful, for example, if you do not want story sentences to be slowed down upon subsequent playbacks).
 
 * Default settings can be defined for each sound type, and reused across multiple contexts.
 
-* A main volume setting is available to quickly adjust the volume of all sounds in a context.
+* A main volume setting is available to quickly adjust the volume of all sounds in a given context.
 
 ### Compatibility
 
