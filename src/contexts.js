@@ -1,3 +1,4 @@
+import { PrimeIcons } from 'primereact/api';
 import { ALL_LISTENING_CHALLENGE_TYPES } from 'duo-toolbox/duo/challenges';
 
 import {
@@ -11,14 +12,7 @@ import {
   getCurrentContext as getBaseCurrentContext,
 } from 'duo-toolbox/duo/context';
 
-/**
- * @type {string}
- */
 export const CONTEXT_LISTENING_CHALLENGE = 'listening_challenge';
-
-/**
- * @type {string}
- */
 export const CONTEXT_OTHER_CHALLENGE = 'other_challenge';
 
 export {
@@ -29,9 +23,6 @@ export {
   CONTEXT_UNKNOWN,
 };
 
-/**
- * @type {string[]}
- */
 export const CONTEXTS = [
   CONTEXT_LISTENING_CHALLENGE,
   CONTEXT_OTHER_CHALLENGE,
@@ -41,6 +32,37 @@ export const CONTEXTS = [
   CONTEXT_CHARACTERS,
   CONTEXT_UNKNOWN,
 ];
+
+export const CONTEXT_HEADERS = {
+  [CONTEXT_LISTENING_CHALLENGE]: {
+    icon: PrimeIcons.VOLUME_UP,
+    label: 'Challenge (listening)',
+  },
+  [CONTEXT_OTHER_CHALLENGE]: {
+    icon: PrimeIcons.PENCIL,
+    label: 'Challenge (other)',
+  },
+  [CONTEXT_GUIDEBOOK]: {
+    icon: PrimeIcons.MAP,
+    label: 'Guidebook',
+  },
+  [CONTEXT_STORY]: {
+    icon: PrimeIcons.BOOK,
+    label: 'Story',
+  },
+  [CONTEXT_FORUM_DISCUSSION]: {
+    icon: PrimeIcons.COMMENTS,
+    label: 'Forum',
+  },
+  [CONTEXT_CHARACTERS]: {
+    icon: PrimeIcons.INFO,
+    label: 'Characters',
+  },
+  [CONTEXT_UNKNOWN]: {
+    icon: PrimeIcons.QUESTION,
+    label: 'Other',
+  },
+};
 
 /**
  * @returns {string} The current context.

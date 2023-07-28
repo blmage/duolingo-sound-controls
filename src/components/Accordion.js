@@ -3,6 +3,15 @@ import classNames from 'classnames';
 import { Accordion as BaseAccordion } from 'primereact/accordion';
 
 export class Accordion extends BaseAccordion {
+  isSelected(index) {
+    // Also account for "onUncontrolledTabChange" which does not exist in the base component.
+    const activeIndex = (this.props.onTabChange || this.props.onUncontrolledTabChange)
+      ? this.props.activeIndex
+      : this.state.activeIndex;
+
+    return this.props.multiple ? (activeIndex && activeIndex.includes(index)) : (activeIndex === index);
+  }
+
   onTabHeaderClick(event, tab, index) {
     if (!tab.props.disabled) {
       const selected = this.isSelected(index);

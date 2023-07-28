@@ -8,11 +8,12 @@ import { getCurrentContext } from './contexts';
 import { getSettingPlaybackValue } from './profiles';
 
 /**
- * @type {object}
+ * @type {object|null}
  */
 let currentConfig = null;
 
 /**
+ * @type {Function}
  * @param {object|null} config The up-to-date configuration.
  * @returns {void}
  */

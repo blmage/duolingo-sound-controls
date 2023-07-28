@@ -1,29 +1,17 @@
-/**
- * @type {string}
- */
+export const ACTION_TYPE_GET_READ_MESSAGES = 'get_read_messages';
+export const ACTION_TYPE_MARK_MESSAGE_AS_READ = 'mark_message_as_read';
 export const ACTION_TYPE_GET_CURRENT_PROFILE = 'get_current_profile';
+export const ACTION_TYPE_UPDATE_CURRENT_PROFILE_SOUND_SETTINGS = 'update_current_profile_sound_settings';
+export const ACTION_TYPE_UPDATE_CURRENT_PROFILE_CUSTOMIZATION_OPTIONS = 'update_current_profile_customization_options';
 
-/**
- * @type {string}
- */
-export const ACTION_TYPE_UPDATE_CURRENT_PROFILE = 'update_current_profile';
-
-/**
- * @type {string[]}
- */
 export const ACTION_TYPES = [
   ACTION_TYPE_GET_CURRENT_PROFILE,
-  ACTION_TYPE_UPDATE_CURRENT_PROFILE,
+  ACTION_TYPE_UPDATE_CURRENT_PROFILE_SOUND_SETTINGS,
+  ACTION_TYPE_UPDATE_CURRENT_PROFILE_CUSTOMIZATION_OPTIONS,
 ];
 
-/**
- * @type {string}
- */
 export const BACKGROUND_EVENT_TYPE_CURRENT_PROFILE_CHANGED = 'current_profile_changed';
 
-/**
- * @type {string[]}
- */
 export const BACKGROUND_EVENT_TYPES = [
   BACKGROUND_EVENT_TYPE_CURRENT_PROFILE_CHANGED,
 ];

@@ -23,9 +23,6 @@
         "pragma": "h",
         "pragmaFrag": "Fragment"
       }
-    ],
-    [
-      "@babel/plugin-transform-react-jsx-source"
     ]
   ]
 }

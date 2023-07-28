@@ -3,11 +3,12 @@
   "description": "A browser extension providing fine-grained sound controls for Duolingo.",
   "license": "MIT",
   "author": "blmage",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "homepage": "https://github.com/blmage/duolingo-sound-controls",
   "scripts": {
     "build": "rollup -c --environment production",
     "build-debug": "rollup -c --environment development",
+    "watch-debug": "rollup -c --environment development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
