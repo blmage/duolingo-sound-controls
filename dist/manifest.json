@@ -1,6 +1,6 @@
 {
   "name": "Duolingo Sound Controls",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Provides fine-grained sound controls for Duolingo.",
   "permissions": [
     "activeTab",

@@ -1738,8 +1738,8 @@ dom-helpers@^5.0.1:
     csstype "^3.0.2"
 
 "duo-toolbox@git+https://github.com/blmage/duo-toolbox.git#semver:^3.7.0":
-  version "3.7.2"
-  resolved "git+https://github.com/blmage/duo-toolbox.git#82657db0efec2319221ad2c09f20b8574b2c86b7"
+  version "3.7.3"
+  resolved "git+https://github.com/blmage/duo-toolbox.git#93c319bbc609707fd90cc3e4856fdd7545c0a629"
 
 electron-to-chromium@^1.4.431:
   version "1.4.473"
